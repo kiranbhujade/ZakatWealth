@@ -43,28 +43,30 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-4">
             <div className="flex items-center space-x-3 mb-6">
               <div className="relative">
-                <Compass className="h-8 w-8 text-gold-500" />
+                <div className="w-8 h-8 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                  <span className="text-emerald-950 font-bold text-sm">Z</span>
+                </div>
                 <Star className="h-3 w-3 text-gold-400 absolute -top-1 -right-1" />
               </div>
               <div>
-                <h3 className="text-xl font-bold font-arabic">The Serenity Compass</h3>
-                <p className="text-xs text-gold-200">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+                <h3 className="text-xl font-bold font-arabic">ZakatWealth</h3>
+                <p className="text-xs text-gold-200">الثروة الحلال والزكاة</p>
               </div>
             </div>
             
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Your trusted guide to building halal wealth and planning your Islamic legacy. 
-              Combining spiritual wisdom with modern financial technology for Muslim families worldwide.
+              Premium Islamic finance platform with advanced Zakat calculations, halal portfolio screening, 
+              and Shari'ah-compliant wealth management for affluent Muslim professionals worldwide.
             </p>
 
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-gray-300">
                 <Mail className="h-4 w-4 text-gold-500" />
-                <span>support@serenitycompass.com</span>
+                <span>support@zakatwealth.com</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <Phone className="h-4 w-4 text-gold-500" />
-                <span>+971 4 123 4567</span>
+                <span>+971 4 567 8900</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <MapPin className="h-4 w-4 text-gold-500" />
@@ -145,15 +147,15 @@ export const Footer: React.FC = () => {
         <div className="border-t border-emerald-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 text-sm">
-              © {currentYear} The Serenity Compass. All rights reserved. 
+              © {currentYear} ZakatWealth. All rights reserved. 
               <span className="mx-2">•</span>
-              Proudly Sharia Compliant
+              AAOIFI Certified & Scholar Verified
             </div>
             
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2 text-sm text-gray-400">
                 <Star className="h-4 w-4 text-gold-500" />
-                <span>Trusted by 10,000+ families</span>
+                <span>Trusted by 25,000+ families</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-gray-400">
                 <div className="w-2 h-2 bg-emerald-400 rounded-full"></div>
@@ -165,10 +167,10 @@ export const Footer: React.FC = () => {
           {/* Hadith Quote */}
           <div className="mt-8 pt-6 border-t border-emerald-800/50 text-center">
             <p className="text-gold-200 font-arabic text-lg mb-2">
-              "البَرَكَةُ مَعَ أَكَابِرِكُمْ"
+              "خُذْ مِنْ أَمْوَالِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا"
             </p>
             <p className="text-gray-400 text-sm italic">
-              "Blessing is with your elders" - Hadith
+              "Take from their wealth a charity to purify and sanctify them" - Quran 9:103
             </p>
           </div>
         </div>

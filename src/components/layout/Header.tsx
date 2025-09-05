@@ -100,17 +100,19 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <div className="relative">
-              <Compass className="h-8 w-8 text-gold-500" />
+              <div className="w-8 h-8 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                <span className="text-emerald-950 font-bold text-sm">Z</span>
+              </div>
               <div className="absolute inset-0 animate-pulse-slow">
                 <Star className="h-3 w-3 text-gold-400 absolute -top-1 -right-1" />
               </div>
             </div>
             <div>
               <h1 className="text-xl lg:text-2xl font-bold font-arabic">
-                The Serenity Compass
+                ZakatWealth
               </h1>
               <p className="text-xs text-gold-200 hidden lg:block">
-                بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ
+                الثروة الحلال والزكاة
               </p>
             </div>
           </Link>
@@ -126,6 +128,12 @@ export const Header: React.FC = () => {
                 {item.name}
               </a>
             ))}
+            <Link to="/zakat-calculator" className="text-sm font-medium hover:text-gold-300 transition-colors duration-200">
+              Zakat Calculator
+            </Link>
+            <Link to="/halal-screener" className="text-sm font-medium hover:text-gold-300 transition-colors duration-200">
+              Halal Screener
+            </Link>
           </div>
 
           {/* Desktop Actions */}

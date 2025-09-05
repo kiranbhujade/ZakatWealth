@@ -30,27 +30,26 @@ export const Hero: React.FC = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Build Your{' '}
+              Optimize Your{' '}
               <span className="text-transparent bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text">
-                Halal Legacy
+                Zakat & Wealth
               </span>
-              <br />
-              with Divine Guidance
+              <br />with Shari'ah Precision
             </h1>
 
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              The ultimate Islamic wealth platform that combines centuries-old wisdom 
-              with cutting-edge AI to guide your financial journey. Build wealth, 
-              plan your legacy, and grow spiritually - all while staying true to Islamic principles.
+              Premium Islamic finance platform with advanced Zakat calculations, 
+              real-time halal portfolio screening, and Shari'ah-compliant wealth optimization 
+              tools designed for affluent Muslim professionals worldwide.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button size="lg" className="group">
-                Discover Your Halal Path
+                Start Zakat Calculation
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button variant="outline" size="lg">
-                Try Halal-o-Meter™ Free
+                Screen Your Portfolio
               </Button>
             </div>
 
@@ -58,15 +57,15 @@ export const Hero: React.FC = () => {
             <div className="flex flex-wrap gap-6 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <Shield className="h-4 w-4 text-emerald-400" />
-                <span>Sharia Compliant</span>
+                <span>AAOIFI Certified</span>
               </div>
               <div className="flex items-center gap-2">
                 <TrendingUp className="h-4 w-4 text-gold-400" />
-                <span>$2B+ Managed</span>
+                <span>$5B+ Analyzed</span>
               </div>
               <div className="flex items-center gap-2">
                 <Heart className="h-4 w-4 text-red-400" />
-                <span>Islamic Values</span>
+                <span>Scholar Verified</span>
               </div>
             </div>
           </motion.div>

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Header } from '../components/layout/Header';
 import { Hero } from '../components/sections/Hero';
-import { HalalMeter } from '../components/sections/HalalMeter';
+import { ZakatCalculator } from '../components/sections/ZakatCalculator';
+import { HalalScreener } from '../components/sections/HalalScreener';
+import { PrayerTimes } from '../components/sections/PrayerTimes';
 import { Features } from '../components/sections/Features';
 import { Pricing } from '../components/sections/Pricing';
 import { Blog } from '../components/sections/Blog';
@@ -13,7 +15,9 @@ function HomePage() {
       <Header />
       <main>
         <Hero />
-        <HalalMeter />
+        <ZakatCalculator />
+        <HalalScreener />
+        <PrayerTimes />
         <Features />
         <Pricing />
         <Blog />

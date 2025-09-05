@@ -61,6 +61,7 @@ module.exports = {
       },
       fontFamily: {
         arabic: ['Amiri', 'serif'],
+        'arabic-display': ['Scheherazade New', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
         serif: ['Amiri', 'Georgia', 'serif'],
       },

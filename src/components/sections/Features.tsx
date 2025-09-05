@@ -7,38 +7,38 @@ export const Features: React.FC = () => {
   const features = [
     {
       icon: TrendingUp,
-      title: 'AI-Powered Portfolio',
-      description: 'Smart investment recommendations based on Islamic principles and market analysis.',
+      title: 'Advanced Zakat Calculator',
+      description: 'Precise Zakat calculations for complex portfolios with multiple juristic methodologies.',
       color: 'emerald'
     },
     {
       icon: Shield,
-      title: 'Sharia Compliance',
-      description: 'Every recommendation verified by Islamic scholars and compliance experts.',
+      title: 'Real-time Halal Screening',
+      description: 'Comprehensive Shari\'ah compliance analysis for stocks, ETFs, and mutual funds.',
       color: 'royal'
     },
     {
       icon: Calculator,
-      title: 'Zakat Calculator',
-      description: 'Automated zakat calculations with multiple scholarly methodologies.',
+      title: 'Portfolio Optimization',
+      description: 'Halal portfolio construction with risk management and purification tracking.',
       color: 'gold'
     },
     {
       icon: BookOpen,
-      title: 'Islamic Education',
-      description: 'Learn Islamic finance principles through interactive courses and content.',
+      title: 'Scholar-Verified Content',
+      description: 'Educational resources on Islamic finance verified by leading scholars.',
       color: 'emerald'
     },
     {
       icon: Users,
-      title: 'Community Insights',
-      description: 'Connect with like-minded Muslim investors and share experiences.',
+      title: 'Premium Community',
+      description: 'Exclusive access to Muslim investor community and expert insights.',
       color: 'royal'
     },
     {
       icon: Heart,
-      title: 'Legacy Planning',
-      description: 'Plan your Islamic inheritance and create lasting generational wealth.',
+      title: 'Wealth Optimization',
+      description: 'Advanced tools for Islamic inheritance planning and generational wealth.',
       color: 'gold'
     }
   ];
